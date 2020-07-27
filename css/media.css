@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+.m_phone,.m_txt{display:none;}
+
+@media screen and (max-width:768px){
+    body{min-width:auto;}
+    .inner{width:auto;}
+    
+    /*웹뷰 안 보임처림*/
+    .phone_full,.main_int ul p,.f_txt {display:none;}
+    
+    /*모바일 뷰 보임처리*/
+    .m_phone,.m_txt{display:block;}
+    
+    /*네비게이션 바*/
+    #fp-nav.fp-left{
+        top:10%;
+    }
+    #fp-nav ul li, .fp-slidesNav ul li{
+        width:30px;
+        height:30px;
+        float:left;
+    }
+    
+    #fp-nav ul li .fp-tooltip.fp-left{
+        font-size:20px;
+        top:35px;
+        left:50%;
+    }
+    
+    /*컨테이너 공통*/
+    .container h2{
+        font-size:30px;
+        padding-top:100px;
+        padding-bottom:40px;
+    }
+    
+    /*메인*/
+    
+    .main_bg{
+        width:auto;
+        height:90px;
+        background-image:url(../images/m_main.png);
+        background-size:contain;
+        margin:0;
+    }
+    .scroll img{width:70px;}
+    
+    /*소개*/
+    
+    #intro_txt{
+        margin-left:20%;
+        font-size:20px;
+        font-weight:lighter;
+        color:#6678a5;
+        padding:0 15px;
+    }
+    
+    /*예매*/
+    
+    .main_tick h2 p{
+        font-size:18px;
+    }
+    .tick_btn li{
+        float: none;
+        width:150px;
+        height:150px;
+        margin-right:0;
+        margin-bottom:60px;
+    }
+    .tick_btn li a{
+        padding:45px 0;
+    }
+    .tick_btn li h3{
+        font-size:18px;
+        }
+    .tick_btn li p{
+        font-size:12px;
+    }
+
+    /*전화번호*/
+    
+    .main_phone h2{
+        padding-top:50px;
+        padding-bottom:40px;
+    }
+    .main_phone h2 p{
+        font-size:18px;
+    }
+    
+    /*터미널,정보*/
+    
+    .main_int h2{
+        padding-top:40px;
+        padding-bottom:15px;
+    }
+    .main_int h2 p{
+        font-size:18px;
+    }
+    .main_int ul li{
+        float:none;
+        margin-bottom:10px;
+    }
+    .main_int ul img{
+        width:80px;
+    }
+    .main_int ul h4{
+        font-size:20px;
+        margin-bottom:5px;
+    }
+    .m_txt{
+        font-weight: 100
+    }
+    
+    /*푸터*/
+    
+    #footer{
+        padding-top:80px;
+        padding-bottom:20px;
+        font-size:14px;
+    }
+}

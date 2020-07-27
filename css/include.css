@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+
+/*푸터*/
+
+#footer{
+    padding:80px 0;
+    text-align:center;
+}
+#footer h1{
+    margin-bottom:20px;
+}
+#footer h1 img{
+    width:200px;
+}
+
+#footer p{}
+#footer p span{}
+#footer a{
+    color:#013086;
+}
+
+.copy{
+    margin:15px 0;
+}
